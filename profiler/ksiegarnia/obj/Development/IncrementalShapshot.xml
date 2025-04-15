@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ksiegarnia</Database>
+    <Server>DESKTOP-84D09FT</Server>
+    <ConnectionString>Data Source=DESKTOP-84D09FT;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>lSOAbGEm91Nb0pPMDr8UALrRBag=20/05/2024 18:15:3920/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Ksiegarnia Ext</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>SH+PMXIb//GU6pGBDycFih3+XEc=22/05/2019 14:20:0420/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Ksiegarnia Ext</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NVu8edL1UK7NpOAUNSWNlNBhR64=22/05/2019 14:42:3120/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Ksiazka</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GYwxnONxgaio8v0DoAsCjFTYRoo=22/05/2019 14:42:3120/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Czas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>U37fOeVMIVuSxU6cwkCdGZsOqoY=22/05/2019 14:46:5020/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Sprzedawca</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BAR7/o8yzVd4xMjX0hw6EkqNcmQ=22/05/2019 14:46:5020/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Smieci</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>yD3RUbU/AdYOhKohycOxmkXqC0I=22/05/2019 14:42:3120/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Data</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LWFzLVglbwDAIV75+6z5JC22s3o=22/05/2019 14:46:5020/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Autor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6YSYB8TpSaBNADb82sdl0Xv499s=22/05/2019 14:28:3120/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Sprzedaz Ksiazki</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>N2SyG+Tj86g0LFvhtLzcA1RLRwM=05/06/2019 12:59:0420/05/2024 18:10:262hDVqrJuo7Vr5IO862uvElF0QRk=05/06/2019 12:59:0420/05/2024 18:10:26</TimeStamp>
+        <ID>
+          <String>Ksiegarnia Ext</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>lajB1CN21saAVahxAnR/ttxd9UE=05/06/2019 11:22:3920/05/2024 18:10:26</TimeStamp>
+      <ID>
+        <String>ksiegarnia</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-05-20T16:15:45.26Z</LastDeployed>
+</DeploymentSnapshot>
